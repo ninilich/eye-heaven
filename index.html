@@ -42,7 +42,7 @@
     .carousel-item {
       flex: 0 0 auto;
       width: min(620px, 85vw);
-      aspect-ratio: 1473 / 1004;
+      aspect-ratio: 1440 / 900;
       border-radius: 12px;
       overflow: hidden;
       border: 1px solid rgba(255,255,255,0.08);
@@ -198,17 +198,20 @@
 <!-- ── CAROUSEL ── -->
 <div class="carousel-section">
   <div class="carousel-track-wrap" id="carousel">
-    <div class="carousel-item" onclick="openLightbox('screenshot-long-break.jpg')">
-      <img src="screenshot-long-break.jpg" alt="EyeHeaven — long break with stereogram" draggable="false">
+    <div class="carousel-item" onclick="openLightbox('screenshot-long-break.png')">
+      <img src="screenshot-long-break.png" alt="EyeHeaven — long break with stereogram" draggable="false">
     </div>
-    <div class="carousel-item" onclick="openLightbox('screenshot-short-break.jpg')">
-      <img src="screenshot-short-break.jpg" alt="EyeHeaven — short break" draggable="false">
+    <div class="carousel-item" onclick="openLightbox('screenshot-short-break.png')">
+      <img src="screenshot-short-break.png" alt="EyeHeaven — short break" draggable="false">
     </div>
-    <div class="carousel-item" onclick="openLightbox('screenshot-settings.jpg')">
-      <img src="screenshot-settings.jpg" alt="EyeHeaven — break settings" draggable="false">
+    <div class="carousel-item" onclick="openLightbox('screenshot-tray-menu.png')">
+      <img src="screenshot-tray-menu.png" alt="EyeHeaven — menu bar" draggable="false">
     </div>
-    <div class="carousel-item" onclick="openLightbox('screenshot-settings-stereo.jpg')">
-      <img src="screenshot-settings-stereo.jpg" alt="EyeHeaven — stereogram settings" draggable="false">
+    <div class="carousel-item" onclick="openLightbox('screenshot-settings.png')">
+      <img src="screenshot-settings.png" alt="EyeHeaven — break settings" draggable="false">
+    </div>
+    <div class="carousel-item" onclick="openLightbox('screenshot-settings-stereo.png')">
+      <img src="screenshot-settings-stereo.png" alt="EyeHeaven — stereogram settings" draggable="false">
     </div>
   </div>
   <div class="carousel-dots" id="carousel-dots">
@@ -216,6 +219,7 @@
     <button class="carousel-dot" onclick="scrollToSlide(1)"></button>
     <button class="carousel-dot" onclick="scrollToSlide(2)"></button>
     <button class="carousel-dot" onclick="scrollToSlide(3)"></button>
+    <button class="carousel-dot" onclick="scrollToSlide(4)"></button>
   </div>
   <p class="carousel-hint">Swipe or drag to explore · click to zoom</p>
 </div>
